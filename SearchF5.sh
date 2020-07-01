@@ -8,3 +8,4 @@ echo "$var1"
 output2=$(curl -sku 'user:password' -X POST -H "Content-type: application/json" -d "{\"command\":\"run\", \"utilCmdArgs\": \"-c 'tmsh list ltm pool one-line | grep '$var1' '\"}" "https://URL/mgmt/tm/util/bash" | jq -r ".commandResult";)
 echo "$(tput setaf 1)$(tput setab 7)##Members##$(tput sgr 0)"
 echo "$output2"
+echo "$output2"
