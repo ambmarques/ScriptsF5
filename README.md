@@ -16,6 +16,5 @@ Scripts Bash - Load Balancer F5
 2. Pool Name
 3. One-line Pool with all configuration and Nodes.
 
-
 Thanks!
 
